@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <!--following line is from chatgpt, adı aklıma gelmedi-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rustic Roast</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <input type="checkbox" id="bean-click" hidden>
+
+        <div class="container">
+            <h1 class="header">Rustic Roast<span id="clock"></span></h1>
+
+            <label for="bean-click" class="coffee-bean">
+                <div class="left"></div>
+                <div class="right"></div>
+            </label>
+
+            <div class="login-container">
+                <div class="coffee-cup">
+                    <div class="cup"></div>
+                    <div class="handle"></div>
+                    <div class="steam steam1"></div>
+                    <div class="steam steam2"></div>
+                    <div class="steam steam3"></div>
+                    
+                </div>
+                <form>
+                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Password" required>
+                    <button type="submit">Login</button>
+
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
